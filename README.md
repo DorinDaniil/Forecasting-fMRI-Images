@@ -24,5 +24,5 @@ method are tested.
 ## Repository Structure
 The repository is structured as follows:
 
-- `paper`: This directory contains the main paper in PDF format (`main.pdf`) and the LaTeX source file (`main.tex`). Also there is a directory `figs` with images used in the paper.
+- `paper`: This directory contains the main paper in PDF format (`main.pdf`) and the LaTeX source file (`main.tex`). Also there is a directory `figures` with images used in the paper.
 - `code`: This directory contains the code used in the paper. It has its own `README.md` file providing a detailed description of the code files.
