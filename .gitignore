@@ -1,3 +1,15 @@
+# macos
+*.DS_Store
+
+# LaTeX
+*.synctex.gz
+*.out
+*.fdb_latexmk
+*.blg
+*.bbl
+*.aux
+*.fls
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
