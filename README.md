@@ -1,7 +1,5 @@
 # Forecasting fMRI Images From Video Sequences: Linear Model Analysis
 
-This repository contains the paper, figures, and code for the paper "Forecasting fMRI Images From Video Sequences: Linear Model Analysis".
-
 **Author:** Daniil Dorin, Nikita Kiselev
 
 **Advisor:** Andrey Grabovoy
