@@ -5,21 +5,7 @@
 **Advisor:** Andrey Grabovoy
 
 ## Abstract
-The problem of reconstructing the dependence between fMRI sensor readings 
-and human perception of the external world is investigated. 
-The dependence between the sequence of fMRI images and the video sequence 
-viewed by a person is analyzed. Based on the dependence study, a method for 
-approximating fMRI readings from the viewed video sequence is proposed. 
-The method is constructed under the assumption of the presence of a time 
-invariant hemodynamic response time dependence of blood oxygen level. 
-A linear model is independently constructed for each voxel of the fMRI image.  
-The assumption of markovality of the fMRI image sequence is used. 
-To analyze the proposed method, a computational experiment is performed 
-on a sample obtained during tomographic examination of a large number of subjects. 
-The dependence of the method performance quality on the hemodynamic response 
-time is analyzed on the experimental data. Hypotheses about invariance of 
-model weights with respect to a person and correctness of the constructed 
-method are tested.
+The issue of reconstructing the relationship between functional magnetic resonance imaging (fMRI) sensor readings and human perception of the external is investigated. The study analyzes the dependence between the fMRI images and the videos viewed by individuals. Based on this analysis, a method is proposed for approximating the fMRI readings using the video sequence. The method is based on the assumption that there is a time-invariant hemodynamic response to changes in blood oxygen levels. A linear model is constructed for each individual voxel in the fMRI image, assuming that the image sequence follows a Markov property. To test the proposed method, a computational experiment was conducted on a dataset collected during tomographic examinations of a large number of individuals. The performance of the method was evaluated based on the experimental data, and hypotheses were tested regarding the invariance of the model weights and the correctness of the method.
 
 ## Repository Structure
 The repository is structured as follows:
