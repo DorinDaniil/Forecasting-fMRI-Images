@@ -19,8 +19,10 @@ class FramesLoader:
         self.video_path = os.path.join(os.path.dirname(
             os.getcwd()), "src", "Film stimulus.mp4")
         self.videocap = cv2.VideoCapture(self.video_path)
-        self.preprocess = torchvision.models.ResNet152_Weights.IMAGENET1K_V2.transforms()
-
+        self._video_to_frames()
+        #self.preprocess = torchvision.models.ResNet152_Weights.IMAGENET1K_V2.transforms()
+        self.preprocess = torchvision.models.ViT_B_16_Weights.IMAGENET1K_SWAG_E2E_V1.transforms()
+        
     def _video_to_frames(self):
         """Import video from video_path and divide it into the frames."""
         success, frame = self.videocap.read()
@@ -61,7 +63,8 @@ class FramesLoader:
         #
         #model.fc = torch.nn.Identity()
 
-        model = torchvision.models.resnet152(weights='IMAGENET1K_V2')
+        #model = torchvision.models.resnet152(weights='IMAGENET1K_V2')
+        model = torchvision.models.vit_b_16(weights='IMAGENET1K_SWAG_E2E_V1')
 
         for frame_tensor in tqdm(self._frames_to_tensors()):
             # передача картинки в модель и получение выходных данных

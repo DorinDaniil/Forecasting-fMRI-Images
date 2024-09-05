@@ -50,15 +50,22 @@ class Preprocessor:
         # список снимков фМРТ, развернутых в векторы
         voxels = [scan.reshape(self._d1 * self._d2 * self._d3).numpy()
                   for scan in scans_list]
+
         data = [(self.vector_list[n], voxels[k])
                 for n, k in pairs]  # (изображение, снимок)
 
         # train, test
         l = int(self.train_size * self.d4)  # размер обучающей выборки
         train, test = data[:l], data[l:]
+        train_voxels = np.array([pair[1] for pair in train])
+        test_voxels = np.array([pair[1] for pair in test])
+        min_train = np.min(train_voxels)
+        max_train = np.max(train_voxels)
+        train_voxels = (train_voxels - min_train) / (max_train - min_train)
+        test_voxels = (test_voxels - min_train) / (max_train - min_train)
 
-        train = [(pair[0], utils.preprocess(pair[1])) for pair in train]
-        test = [(pair[0], utils.preprocess(pair[1])) for pair in test]
+        train = [(pair[0], train_voxel) for pair, train_voxel in zip(train, train_voxels)]
+        test = [(pair[0], test_voxel) for pair, test_voxel in zip(test, test_voxels)]
 
         return train, test
 

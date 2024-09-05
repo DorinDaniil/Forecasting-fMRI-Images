@@ -49,7 +49,7 @@ class Visualizer:
             os.getcwd()), self.figures, self.filename)
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
-        os.chmod(folder_path, 0o400)
+        # os.chmod(folder_path, 0o400)
         print(title)
 
         if filename_end == "-difference.png" or filename_end == "-recovered-difference.png" or filename_end == "-delta.png" or filename_end == "-recovered-delta.png":
