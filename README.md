@@ -1,13 +1,17 @@
 <div align="center">
 <h1>Forecasting fMRI Images From Video Sequences: Linear Model Analysis </h1>
 
-[Daniil Dorin](https://github.com/DorinDaniil)<sup>1 :email: *</sup>, [Nikita Kiselev](https://github.com/kisnikser)<sup>1 *</sup>, [Andrey Grabovoy](https://github.com/andriygav)<sup>1</sup>
+[Daniil Dorin](https://github.com/DorinDaniil)<sup>1 :email: *</sup>, [Nikita Kiselev](https://github.com/kisnikser)<sup>2 *</sup>, [Andrey Grabovoy](https://github.com/andriygav)<sup>3</sup>, [Vadim Strijov](https://github.com/Strijov)<sup>1</sup>
 
-<sup>1</sup> Moscow Institute of Physics and Technology
+<sup>1</sup> Forecsys, Moscow, Russia
+
+<sup>2</sup> Research Center for Artificial Intelligence, Innopolis University, Innopolis, Russia
+
+<sup>3</sup> Antiplagiat Company, Moscow, Russia
 
 <sup>:email:</sup> Corresponding author, <sup>*</sup> Equal contribution
 
-[📝 Paper (Health Information Science and Systems 2024)](https://doi.org/10.1007/s13755-024-00315-5), [</> Code](https://github.com/DorinDaniil/Forecasting-fMRI-Images/tree/main/code), [🎬 Video](https://www.youtube.com/live/WnIRaRl730A?si=Txo-uVvyS6JaTzRT&t=4305), [🎫 Poster](https://github.com/DorinDaniil/Forecasting-fMRI-Images/blob/main/poster/poster.pdf)
+[📝 Paper](https://doi.org/10.1007/s13755-024-00315-5), [</> Code](https://github.com/DorinDaniil/Forecasting-fMRI-Images/tree/main/code), [🎬 Video](https://www.youtube.com/live/WnIRaRl730A?si=Txo-uVvyS6JaTzRT&t=4305), [🎫 Poster](https://github.com/DorinDaniil/Forecasting-fMRI-Images/blob/main/poster/poster.pdf)
 
 </div>
 
