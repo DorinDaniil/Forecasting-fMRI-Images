@@ -46,3 +46,16 @@ Forecasting-fMRI-Images
     ├── sn-jnl.cls
     └── sn-mathphys-num.bst
 ```
+
+## 📚 Citation
+```BibTeX
+@article{dorin2024forecastingfmriimages,
+	author = {Dorin, Daniil and Kiselev, Nikita and Grabovoy, Andrey and Strijov, Vadim},
+	journal = {Health Information Science and Systems},
+	number = {1},
+	pages = {55},
+	title = {Forecasting fMRI images from video sequences: linear model analysis},
+	volume = {12},
+	year = {2024}
+}
+```
