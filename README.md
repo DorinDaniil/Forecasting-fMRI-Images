@@ -25,7 +25,7 @@ The issue of reconstructing the relationship between functional magnetic resonan
 
 ## 🛠️ Repository Structure
 The repository is structured as follows:
-- `paper`: This directory contains the main paper in PDF format (`main.pdf`) and the LaTeX source file (`main.tex`). Also there is a directory `figures` with images used in the paper.
+- `poster`: This directory contains the poster of our study.
 - `code`: This directory contains the code used in the paper. It has its own `README.md` file providing a detailed description of the code files.
 ```shell
 Forecasting-fMRI-Images
@@ -38,13 +38,10 @@ Forecasting-fMRI-Images
 │   ├── models.py
 │   ├── utils.py
 │   └── visualizer.py
-└── paper
-    ├── figs
-    ├── main.pdf
-    ├── main.tex
-    ├── references.bib
-    ├── sn-jnl.cls
-    └── sn-mathphys-num.bst
+└── poster
+    ├── poster.pdf
+    ├── poster.png
+    └── poster.svg
 ```
 
 ## 📚 Citation
