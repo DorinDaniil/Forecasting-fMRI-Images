@@ -11,7 +11,7 @@
 
 <sup>:email:</sup> Corresponding author, <sup>*</sup> Equal contribution
 
-[📝 Paper](https://doi.org/10.1007/s13755-024-00315-5), [</> Code](https://github.com/DorinDaniil/Forecasting-fMRI-Images/tree/main/code), [🎬 Video](https://www.youtube.com/live/WnIRaRl730A?si=Txo-uVvyS6JaTzRT&t=4305), [🎫 Poster](https://github.com/DorinDaniil/Forecasting-fMRI-Images/blob/main/poster/poster.pdf)
+[📝 Paper](https://rdcu.be/d0oV0), [</> Code](https://github.com/DorinDaniil/Forecasting-fMRI-Images/tree/main/code), [🎬 Video](https://www.youtube.com/live/WnIRaRl730A?si=Txo-uVvyS6JaTzRT&t=4305), [🎫 Poster](https://github.com/DorinDaniil/Forecasting-fMRI-Images/blob/main/poster/poster.pdf)
 
 </div>
 
